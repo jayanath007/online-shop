@@ -1,25 +1,24 @@
-<div class="input-group">
-  <input type="text" class="form-control" placeholder="Search this blog">
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" >Action</a>
+      <a class="dropdown-item" >Another action</a>
+      <a class="dropdown-item">Something else here</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" >Separated link</a>
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with dropdown button">
   <div class="input-group-append">
     <button class="btn btn-secondary" type="button">
-      <i class="fa fa-search"></i>
+      <i (click)="showSearch = true" class="icon-search"></i>
     </button>
   </div>
 </div>
 
-<!-- <div class="shop-sorting">
-  <label for="sorting">Categories </label>
-  <select class="form-control">
-    <option>Newest Articles</option>
-    <option>Newest Articles</option>
-    <option>Newest Articles</option>
-    <option>Newest Articles</option>
-    <option>Newest Articles</option>
-  </select>
-</div> -->
-
-
-<!-- <div class="site-search" [ngClass]="{'search-visible' : showSearch}">
+<!-- 
+ <div class="site-search" [ngClass]="{'search-visible' : showSearch}">
   <input type="text" (input)="onSearchInput($event)" placeholder="Type to search...">
   <div class="search-tools">
     <span class="close-search">

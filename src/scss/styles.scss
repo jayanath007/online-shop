@@ -1,5 +1,8 @@
-//Import Google Fonts (Maven Pro)
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+// //Import Google Fonts (Maven Pro)
+// @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+
+
+@import "~bootstrap/scss/bootstrap.scss";
 
 
 // Import Bootstrap Modules
@@ -46,21 +49,22 @@
 @import 'helpers/placeholders';
 
 
-// // Import third party lib styles
-// @import "~ngx-toastr/toastr-bs4-alert";
+// // // Import third party lib styles
+// // @import "~ngx-toastr/toastr-bs4-alert";
 
 
-// Base
+// // Base
 @import 'base/scaffolding';
 @import 'base/utilities';
 
 
 // Components
-@import 'components/icons';
+ @import 'components/icons';
 @import 'components/typography';
-@import 'components/forms';
-@import 'components/tables';
+//  @import 'components/forms';
 @import 'components/buttons';
+@import 'components/tables';
+
 @import 'components/social-buttons';
 @import 'components/navs';
 @import 'components/card';

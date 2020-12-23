@@ -7,11 +7,11 @@
   display: inline-block;
   position: relative;
   height: $btn-height;
-  margin: {
-    top: floor($btn-margin / 1.5);
-    right: $btn-margin;
-    bottom: floor($btn-margin / 1.5);
-  }
+  // margin: {
+  //   top: floor($btn-margin / 1.5);
+  //   right: $btn-margin;
+  //   bottom: floor($btn-margin / 1.5);
+  // }
   padding: 0 22px;
   transform: translateZ(0);
   transition: all .4s;

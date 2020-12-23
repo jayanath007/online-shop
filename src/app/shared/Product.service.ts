@@ -17,13 +17,13 @@ export class ProductService {
         },
         "currentRating": 4.5,
         "date": "2018-04-25",
-        "description": "Description",
+        "description": "Ladies Office pant suits",
         "id": 342126594235,
         "imageRefs": [
           "product-images/1524665830705_[object File]"
         ],
         "imageURLs": [
-          "https://lh3.googleusercontent.com/proxy/Z-kNn3vOMKyB74a730uYStDNb3-oRo_vWZd83P9riF8VQxBO8DDMbsPQy-v_zxWSS2afuRTDLQ0zAyy34_vv9bGr1vmYoTF6cJZe-NvMVsO0J_eCJ8BGlGZlVxioOquHftiecUaujlw"
+          "https://euimg.eworldtrade.com/uploads/user_products/3/9/product-0373907001539622787-o.jpg"
         ],
         "name": "Super new Sneakers",
         "price": 6,
@@ -41,13 +41,13 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2018-04-02",
-        "description": "Despite the name, these earrings won't give you magical powers  – or will they? Find out for yourself!",
+        "description": "Women's Earrings.. Earrings make women's beauty!",
         "id": 1174268122548,
         "imageRefs": [
           "product-images/1522678065417_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F15.jpg?alt=media&token=2851da2a-6151-463f-80ad-aaa8560ff151"
+          "https://assets0.mirraw.com/images/3956561/GSE600_small.jpg?1486645547"
         ],
         "name": "Magical Earrings",
         "price": 150,
@@ -73,7 +73,7 @@ export class ProductService {
           "product-images/1522681916692_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F13.jpg?alt=media&token=0175cf20-d305-4b2e-92ff-ce916dfa3ae2"
+          "https://cdn.shopify.com/s/files/1/0038/9929/3811/products/0325b934-7e81-4ef4-bdd1-3b7f32c154ff@2x.jpg?v=1571709238"
         ],
         "name": "Pack It On Your Back",
         "price": 150,
@@ -97,7 +97,7 @@ export class ProductService {
           "product-images/1522670556882_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F03.jpg?alt=media&token=1de91d09-636c-4590-a6b1-d76c442667a9"
+          "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/70/700/1327/100/1/357781330/357781330_1_720x928.jpg"
         ],
         "name": "Fancy Shades",
         "price": 420,
@@ -115,13 +115,13 @@ export class ProductService {
         },
         "currentRating": 5,
         "date": "2018-03-19",
-        "description": "Not only for Beatles-Fans.",
+        "description": "Be Genuine! patek Philippe Nautilus 5740/1G-001",
         "id": 262082575518,
         "imageRefs": [
           "product-images/1522408063589_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F27.jpg?alt=media&token=2d71ba78-6f41-4250-a0f5-e3f26e581842"
+          "https://www.perfectreplica.is/wp-content/uploads/2020/04/V16545_13-600x600.jpg"
         ],
         "name": "Yellow Watch",
         "price": 330,
@@ -144,7 +144,7 @@ export class ProductService {
           "product-images/1522670499756_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F02.jpg?alt=media&token=b963ab93-6047-43dc-8f66-77b3f15655a1"
+          "https://photos.smugmug.com/Fashion/Cute-Laptop-Bags/i-LmfxsC5/0/c80a0f6f/356x356/Designer-Laptop-Bags-356x356.jpg"
         ],
         "name": "Famous Blue Bag",
         "price": 750,
@@ -158,13 +158,13 @@ export class ProductService {
         },
         "currentRating": 4,
         "date": "2018-03-17",
-        "description": "Retro is everywhere! Why go to the thrift-shop, shop here and be hip as f...",
+        "description": "Denim Jacket",
         "id": 534697532817,
         "imageRefs": [
           "product-images/1522670622377_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F06.jpg?alt=media&token=9c51956c-48de-414f-bc1d-d6a5ef1b43f8"
+          "https://image1.superdry.com/static/images/optimised/zoom/upload3977604944097584978.jpg"
         ],
         "name": "Retro Trainer",
         "price": 175,
@@ -187,7 +187,7 @@ export class ProductService {
           "product-images/1522681583918_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F11.jpg?alt=media&token=a65408eb-b7f8-4d04-8167-9452ebcede3d"
+          "https://5.imimg.com/data5/SO/BE/LD/ANDROID-31132887/product-jpeg-500x500.jpg"
         ],
         "name": "Seven Mile Sneakers",
         "price": 100,
@@ -210,7 +210,7 @@ export class ProductService {
           "product-images/1522670692030_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F07.jpg?alt=media&token=c9c62a7d-3c0d-4dfa-86a7-6ff875728839"
+          "https://i.pinimg.com/originals/62/29/f6/6229f6afc0902c8c0f73bb351e409e9c.jpg"
         ],
         "name": "Useful Pants",
         "price": 75,
@@ -227,13 +227,13 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2018-02-22",
-        "description": "Don't have a flower-garden? No problem, try the blouse!",
+        "description": "Ladies Chiffone Blouses!",
         "id": 726052469270,
         "imageRefs": [
           "product-images/1522696166685_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F08.jpg?alt=media&token=65a83206-f822-42fb-9eb3-9aced1a376e6"
+          "https://images-na.ssl-images-amazon.com/images/I/61YL%2Bq4jVdL._AC_UX385_.jpg"
         ],
         "name": "Flowery Blouse",
         "price": 75,
@@ -256,7 +256,7 @@ export class ProductService {
           "product-images/1522670457485_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F09.jpg?alt=media&token=803a70b2-5710-433d-827d-d47a31ef4a99"
+          "https://media.gettyimages.com/photos/high-angle-view-of-blue-stilettos-over-pink-background-picture-id1025627712?s=2048x2048"
         ],
         "name": "«Nice» Shoes",
         "price": 120,
