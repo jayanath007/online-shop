@@ -1,7 +1,11 @@
 <div class="container padding-bottom-3x mb-1">
-  <p>
-    map works!
-  </p>
-
-  
+  <agm-map 
+  [style.height.px]="300"
+  [latitude]="latitude" 
+  [longitude]="longitude" 
+  [zoom]="zoom" >
+    <agm-marker 
+    [latitude]="latitude" 
+    [longitude]="longitude"></agm-marker>
+  </agm-map>
 </div>

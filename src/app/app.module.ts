@@ -16,10 +16,7 @@ import { AgmCoreModule } from '@agm/core';
     AppRoutingModule,
     CoreModule,
     ProductsModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
-      libraries: ['places']
-    })
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

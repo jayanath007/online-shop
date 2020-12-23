@@ -3,14 +3,12 @@ import { CommonModule } from '@angular/common';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from '../app-routing.module';
-import { SearchComponent } from './header/search/search.component';
 import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
     declarations: [
         ContentComponent,
-        SearchComponent,
         FooterComponent,
         HeaderComponent
     ],

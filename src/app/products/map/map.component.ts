@@ -8,20 +8,22 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class MapComponent implements OnInit {
 
-  @ViewChild('map') mapElement: any;
-  // map: google.maps.Map;
-
-  constructor() { }
+  latitude: number =0 ;
+  longitude: number =0 ;
+  zoom:number =0 ;
 
   ngOnInit() {
-
-    // const mapProperties = {
-    //   center: new google.maps.LatLng(35.2271, -80.8431),
-    //   zoom: 15,
-    //   mapTypeId: google.maps.MapTypeId.ROADMAP
-    // };
-
-    //  new google.maps.Map(this.mapElement.nativeElement, mapProperties);
+    this.setCurrentLocation();
   }
 
+    // Get Current Location Coordinates
+    private setCurrentLocation() {
+      if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          this.latitude = position.coords.latitude;
+          this.longitude = position.coords.longitude;
+          this.zoom = 15;
+        });
+      }
+    }
 }
