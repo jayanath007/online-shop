@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContentComponent } from './content/content.component';
-import { FooterComponent } from './content/footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { SearchComponent } from './header/search/search.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
     declarations: [
         ContentComponent,
-        FooterComponent
-,
+        SearchComponent,
+        FooterComponent,
+        HeaderComponent
     ],
     imports: [
         CommonModule,
@@ -18,7 +21,8 @@ import { AppRoutingModule } from '../app-routing.module';
     exports: [
         CommonModule,
         ContentComponent,
-        FooterComponent
+        FooterComponent,
+        HeaderComponent,
     ],
     providers: [
     ]
