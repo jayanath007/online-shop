@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { ProductsModule } from './products/products.module';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,10 @@ import { ProductsModule } from './products/products.module';
     AppRoutingModule,
     CoreModule,
     ProductsModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
+    //   libraries: ['places']
+    // })
   ],
   providers: [],
   bootstrap: [AppComponent]
