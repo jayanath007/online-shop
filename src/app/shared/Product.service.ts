@@ -23,7 +23,7 @@ export class ProductService {
           "product-images/1524665830705_[object File]"
         ],
         "imageURLs": [
-          "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F01.jpg?alt=media&token=7cb51fd4-b884-4088-b272-172341c852f6"
+          "https://lh3.googleusercontent.com/proxy/Z-kNn3vOMKyB74a730uYStDNb3-oRo_vWZd83P9riF8VQxBO8DDMbsPQy-v_zxWSS2afuRTDLQ0zAyy34_vv9bGr1vmYoTF6cJZe-NvMVsO0J_eCJ8BGlGZlVxioOquHftiecUaujlw"
         ],
         "name": "Super new Sneakers",
         "price": 6,
