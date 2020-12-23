@@ -9,7 +9,7 @@ import { Product } from 'src/app/models/product.model';
 })
 export class ProductsListItemComponent implements OnInit, OnDestroy {
 
-  @Input() product: Product | undefined;
+  @Input() product: Product = new Product();
   public imageLoading: boolean = true
 
   constructor(
