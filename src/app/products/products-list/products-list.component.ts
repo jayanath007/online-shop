@@ -1,6 +1,7 @@
 import { ProductService } from './../../shared/Product.service';
 import { Component } from '@angular/core';
 import { Product } from 'src/app/models/product.model';
+import { PagerService } from '../pager.service';
 
 
 
@@ -12,18 +13,20 @@ import { Product } from 'src/app/models/product.model';
 export class ProductsListComponent {
   // unsubscribe$ = new Subject();
   products: Product[] = [];
-  // productsPaged: Product[];
-  // pager: any = {};
+  productsPaged: Product[] = [];
+  pager: any = {};
   // user: User;
   // productsLoading: boolean;
   // currentPagingPage: number;
   constructor(
-    private productService: ProductService
+    private productService: ProductService,
+    private pagerService: PagerService,
   ) { }
 
   ngOnInit() {
     this.getProducts();
     this.products = <Product[]>this.productService.getProducts();
+    this.setPage(1);
   }
 
   getProducts() {
@@ -36,6 +39,17 @@ export class ProductsListComponent {
     //     this.setPage(this.currentPagingPage);
     //     this.productsLoading = false;
     //   });
+  }
+
+  setPage(page: number) {
+    if (page < 1 || page > this.pager.totalPages) {
+      return;
+    }
+    this.pager = this.pagerService.getPager(this.products.length, page, 8);
+    this.productsPaged = this.products.slice(
+      this.pager.startIndex,
+      this.pager.endIndex + 1
+    );
   }
 
 }

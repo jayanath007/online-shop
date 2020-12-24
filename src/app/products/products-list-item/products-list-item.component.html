@@ -3,7 +3,7 @@
   <div *ngIf="product.reduction" class="product-badge text-danger">{{ product.reduction }}% Off</div>
 
   <div class="product-rating">
-    <!-- <app-rating-stars [rating]="product.currentRating"></app-rating-stars> -->
+    <app-rating-stars [rating]="product.currentRating"></app-rating-stars>
   </div>
 
   <a class="product-thumb" [ngClass]="{'loading': imageLoading}" >
@@ -13,7 +13,7 @@
     <h3 class="product-title">
       <a >{{product.name}}</a>
     </h3>
-    <!-- <h4 class="product-price"><app-price [product]="product"></app-price></h4> -->
+    <h4 class="product-price"><app-price [product]="product"></app-price></h4>
     <p  class="hidden-xs-down">{{product.description}}</p>
     <div class="product-buttons">
       <!-- <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist">

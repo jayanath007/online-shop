@@ -9,6 +9,8 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { SearchComponent } from './search/search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RatingStarsComponent } from './rating-stars/rating-stars.component';
+import { PriceComponent } from './price/price.component';
+import { PagerService } from './pager.service';
 
 
 @NgModule({
@@ -27,14 +29,19 @@ import { RatingStarsComponent } from './rating-stars/rating-stars.component';
     ProductsHomeComponent,
     SearchComponent,
     RatingStarsComponent,
-    MapComponent],
+    MapComponent,
+    PriceComponent],
   exports: [
     ProductsListComponent,
     ProductsListItemComponent,
     ProductsHomeComponent,
     MapComponent,
     SearchComponent,
- 
+
+  ]
+  ,
+  providers: [
+    PagerService,
   ]
 })
 export class ProductsModule { }
