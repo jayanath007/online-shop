@@ -1,27 +1,26 @@
-<div class="product-card product-list'" >
+<div class="product-card " >
 
-  <!-- <div *ngIf="product.reduction" class="product-badge text-danger">{{ product.reduction }}% Off</div> -->
+  <div *ngIf="product.reduction" class="product-badge text-danger">{{ product.reduction }}% Off</div>
 
   <div class="product-rating">
     <!-- <app-rating-stars [rating]="product.currentRating"></app-rating-stars> -->
   </div>
 
-  <a class="product-thumb" >
-    <img [hidden]="imageLoading" (load)="onImageLoad()" src="{{product.imageURLs[0]}}" alt="{{product?.name}}"/>
+  <a class="product-thumb" [ngClass]="{'loading': imageLoading}" >
+    <img [hidden]="imageLoading" (load)="onImageLoad()" src="{{product.imageURLs[0]}}" alt="{{product.name}}"/>
   </a>
   <div class="product-info">
     <h3 class="product-title">
-      <!-- <a routerLink="/products/{{product.id}}">{{product.name}}</a> -->
+      <a >{{product.name}}</a>
     </h3>
     <!-- <h4 class="product-price"><app-price [product]="product"></app-price></h4> -->
-    <p  class="hidden-xs-down">{{product?.description}} </p>
+    <p  class="hidden-xs-down">{{product.description}}</p>
     <div class="product-buttons">
-     
-      <button class="btn btn-outline-primary btn-sm" (click)="onAddToCart()">Add to Cart</button>
-
-      <!-- <button *ngIf="user && user.roles.admin" class="btn btn-primary btn-sm" routerLink="/admin/edit/{{product.id}}">
-        Edit
+      <!-- <button class="btn btn-outline-secondary btn-sm btn-wishlist" data-toggle="tooltip" title="Whishlist">
+        <i class="icon-heart"></i>
       </button> -->
+      <button class="btn btn-outline-primary btn-sm" (click)="onAddToCart()">Add to Cart</button>
     </div>
   </div>
 </div>
+

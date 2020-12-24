@@ -8,6 +8,7 @@ import { ProductsListItemComponent } from './products-list-item/products-list-it
 import { ProductsListComponent } from './products-list/products-list.component';
 import { SearchComponent } from './search/search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RatingStarsComponent } from './rating-stars/rating-stars.component';
 
 
 @NgModule({
@@ -20,18 +21,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     NgbModule,
   ],
+  declarations: [
+    ProductsListComponent,
+    ProductsListItemComponent,
+    ProductsHomeComponent,
+    SearchComponent,
+    RatingStarsComponent,
+    MapComponent],
   exports: [
     ProductsListComponent,
     ProductsListItemComponent,
     ProductsHomeComponent,
     MapComponent,
     SearchComponent,
-  ],
-  declarations: [
-    ProductsListComponent,
-    ProductsListItemComponent,
-    ProductsHomeComponent,
-    SearchComponent,
-    MapComponent]
+ 
+  ]
 })
 export class ProductsModule { }
