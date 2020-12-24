@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RatingStarsComponent } from './rating-stars/rating-stars.component';
 import { PriceComponent } from './price/price.component';
 import { PagerService } from './pager.service';
+import { TimeAgoPipe } from 'time-ago-pipe';
 
 
 @NgModule({
