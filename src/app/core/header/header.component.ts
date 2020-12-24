@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
+import { OffcanvasService } from '../offcanvas.service';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +14,7 @@ export class HeaderComponent implements OnInit {
   public user: User = new User(null);
   public showSearch = true;
 
-  constructor() { }
+  constructor( private offcanvasService: OffcanvasService) { }
 
   ngOnInit() {
 
@@ -24,7 +25,8 @@ export class HeaderComponent implements OnInit {
   }
 
   public onMenuToggle(e: Event) {
-
+    this.offcanvasService.openOffcanvasNavigation();
+    e.preventDefault();
   }
 
   ngOnDestroy() {

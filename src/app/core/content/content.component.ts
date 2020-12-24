@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
+import { OffcanvasService } from '../offcanvas.service';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.scss']
 })
 export class ContentComponent {
-  constructor() {}
+  constructor(private offcanvasService: OffcanvasService) {}
 
   onMenuClose(e: Event) {
-
+    this.offcanvasService.closeOffcanvasNavigation();
   }
 }
