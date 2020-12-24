@@ -1,4 +1,4 @@
-import { ProductService } from './../../shared/Product.service';
+import { ProductService } from '../product.service';
 import { Component } from '@angular/core';
 import { Product } from 'src/app/models/product.model';
 import { PagerService } from '../pager.service';

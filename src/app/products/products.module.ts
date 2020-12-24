@@ -12,6 +12,7 @@ import { RatingStarsComponent } from './rating-stars/rating-stars.component';
 import { PriceComponent } from './price/price.component';
 import { PagerService } from './pager.service';
 import { TimeagoModule } from 'ngx-timeago';
+import { ProductService } from './product.service';
 
 @NgModule({
   imports: [
@@ -43,6 +44,7 @@ import { TimeagoModule } from 'ngx-timeago';
   ,
   providers: [
     PagerService,
+    ProductService,
   ]
 })
 export class ProductsModule { }
