@@ -16,10 +16,10 @@ import { TimeagoModule } from 'ngx-timeago';
 @NgModule({
   imports: [
     CommonModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
-      libraries: ['places']
-    }),
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
+    //   libraries: ['places']
+    // }),
     BrowserAnimationsModule,
     NgbModule,
     TimeagoModule.forRoot(),
