@@ -1,6 +1,17 @@
 @import '../../../scss/helpers/variables';
 @import '../../../scss/helpers/mixins';
 
+.product-location {
+  color: $brand-info;
+}
+.product-location-header {
+  font-weight: bold;
+}
+
+.product-rating{
+  padding: 5px;
+}
+
 .product-card {
   display: block;
   position: relative;

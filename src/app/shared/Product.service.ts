@@ -17,7 +17,7 @@ export class ProductService {
         },
         "currentRating": 4.5,
         "date": "2020-12-24",
-        "description": "Ladies Office pant suits",
+        "description": "Clothing store in Banff, Canada",
         "id": 342126594235,
         "imageRefs": [
           "product-images/1524665830705_[object File]"
@@ -41,7 +41,7 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2020-11-02",
-        "description": "Women's Earrings.. Earrings make women's beauty!",
+        "description": "91 Front St E, Toronto, ON M5E 1C4, Canada",
         "id": 1174268122548,
         "imageRefs": [
           "product-images/1522678065417_[object File]"
@@ -67,7 +67,7 @@ export class ProductService {
         },
         "currentRating": 4,
         "date": "2020-11-01",
-        "description": "No backing, just packing",
+        "description": "1004 Queen St E, Toronto, ON M4M 1K1, Canada",
         "id": 1460918804231,
         "imageRefs": [
           "product-images/1522681916692_[object File]"
@@ -91,7 +91,7 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2020-12-20",
-        "description": "You always wanted to be a pilot, did you not? Now you can!",
+        "description": "220 Yonge St, Toronto, ON M5B 2H1, Canada",
         "id": 174074709536,
         "imageRefs": [
           "product-images/1522670556882_[object File]"
@@ -115,7 +115,7 @@ export class ProductService {
         },
         "currentRating": 5,
         "date": "2020-12-19",
-        "description": "Be Genuine! patek Philippe Nautilus 5740/1G-001",
+        "description": "7601 Weston Rd, Woodbridge, ON L4L 9J9, Canada",
         "id": 262082575518,
         "imageRefs": [
           "product-images/1522408063589_[object File]"
@@ -138,7 +138,7 @@ export class ProductService {
         },
         "currentRating": 0,
         "date": "2020-12-18",
-        "description": "This is a famous blue bag.",
+        "description": "6455, 0270A Macleod Trail S Unit, Calgary, AB T2H 0K9, Canada",
         "id": 287006516588,
         "imageRefs": [
           "product-images/1522670499756_[object File]"
@@ -158,7 +158,7 @@ export class ProductService {
         },
         "currentRating": 4,
         "date": "2020-12-17",
-        "description": "Denim Jacket",
+        "description": "Shopping Centre, 3401 Dufferin St Unit #501, Toronto, ON M6A 2T9, Canada",
         "id": 534697532817,
         "imageRefs": [
           "product-images/1522670622377_[object File]"
@@ -181,7 +181,7 @@ export class ProductService {
         },
         "currentRating": 1,
         "date": "2020-12-16",
-        "description": "Be fast.",
+        "description": "356 Queen St W, Toronto, ON M5V 2A2, Canada",
         "id": 55673120334,
         "imageRefs": [
           "product-images/1522681583918_[object File]"
@@ -204,7 +204,7 @@ export class ProductService {
         },
         "currentRating": 1,
         "date": "2020-12-15",
-        "description": "Very very useful pants. You could use these, right?",
+        "description": "245 Yonge St, Toronto, ON M5B 1P4, Canada",
         "id": 704066485275,
         "imageRefs": [
           "product-images/1522670692030_[object File]"
@@ -227,7 +227,7 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2020-02-22",
-        "description": "Ladies Chiffone Blouses!",
+        "description": "15 Provost Dr, Toronto, ON M2K 2X9, Canada",
         "id": 726052469270,
         "imageRefs": [
           "product-images/1522696166685_[object File]"
@@ -250,7 +250,7 @@ export class ProductService {
         },
         "currentRating": 1,
         "date": "2020-02-21",
-        "description": "Those are some nice shoes you'll get there....",
+        "description": "8555 Campeau Dr Unit 290, Ottawa, ON K2T 0K5, Canada",
         "id": 816056417742,
         "imageRefs": [
           "product-images/1522670457485_[object File]"
@@ -274,7 +274,7 @@ export class ProductService {
         },
         "currentRating": 3,
         "date": "2020-02-20",
-        "description": "No one looks good in a fedora, but who cares anyway.",
+        "description": "15 Provost Dr, Toronto, ON M2K 2X9, Canada",
         "id": 830862339928,
         "imageRefs": [
           "product-images/1522670798623_[object File]"
