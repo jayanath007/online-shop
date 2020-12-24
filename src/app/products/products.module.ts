@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RatingStarsComponent } from './rating-stars/rating-stars.component';
 import { PriceComponent } from './price/price.component';
 import { PagerService } from './pager.service';
+import { TimeagoModule } from 'ngx-timeago';
 
 @NgModule({
   imports: [
@@ -21,6 +22,7 @@ import { PagerService } from './pager.service';
     }),
     BrowserAnimationsModule,
     NgbModule,
+    TimeagoModule.forRoot(),
   ],
   declarations: [
     ProductsListComponent,

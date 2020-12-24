@@ -16,7 +16,7 @@ export class ProductService {
           "example": true
         },
         "currentRating": 4.5,
-        "date": "2018-04-25",
+        "date": "2020-12-24",
         "description": "Ladies Office pant suits",
         "id": 342126594235,
         "imageRefs": [
@@ -40,7 +40,7 @@ export class ProductService {
           "Jewelry": true
         },
         "currentRating": 3,
-        "date": "2018-04-02",
+        "date": "2020-11-02",
         "description": "Women's Earrings.. Earrings make women's beauty!",
         "id": 1174268122548,
         "imageRefs": [
@@ -66,7 +66,7 @@ export class ProductService {
           "Backpacks": true
         },
         "currentRating": 4,
-        "date": "2018-04-01",
+        "date": "2020-11-01",
         "description": "No backing, just packing",
         "id": 1460918804231,
         "imageRefs": [
@@ -90,7 +90,7 @@ export class ProductService {
           "Glasses": true
         },
         "currentRating": 3,
-        "date": "2018-03-20",
+        "date": "2020-12-20",
         "description": "You always wanted to be a pilot, did you not? Now you can!",
         "id": 174074709536,
         "imageRefs": [
@@ -114,7 +114,7 @@ export class ProductService {
           "Jewelry": true
         },
         "currentRating": 5,
-        "date": "2018-03-19",
+        "date": "2020-12-19",
         "description": "Be Genuine! patek Philippe Nautilus 5740/1G-001",
         "id": 262082575518,
         "imageRefs": [
@@ -137,7 +137,7 @@ export class ProductService {
           "Bags": true
         },
         "currentRating": 0,
-        "date": "2018-03-18",
+        "date": "2020-12-18",
         "description": "This is a famous blue bag.",
         "id": 287006516588,
         "imageRefs": [
@@ -157,7 +157,7 @@ export class ProductService {
           "Clothes": true
         },
         "currentRating": 4,
-        "date": "2018-03-17",
+        "date": "2020-12-17",
         "description": "Denim Jacket",
         "id": 534697532817,
         "imageRefs": [
@@ -180,7 +180,7 @@ export class ProductService {
           "Shoes": true
         },
         "currentRating": 1,
-        "date": "2018-03-16",
+        "date": "2020-12-16",
         "description": "Be fast.",
         "id": 55673120334,
         "imageRefs": [
@@ -203,7 +203,7 @@ export class ProductService {
           "Clothes": true
         },
         "currentRating": 1,
-        "date": "2018-03-15",
+        "date": "2020-12-15",
         "description": "Very very useful pants. You could use these, right?",
         "id": 704066485275,
         "imageRefs": [
@@ -226,7 +226,7 @@ export class ProductService {
           "Clothes": true
         },
         "currentRating": 3,
-        "date": "2018-02-22",
+        "date": "2020-02-22",
         "description": "Ladies Chiffone Blouses!",
         "id": 726052469270,
         "imageRefs": [
@@ -249,7 +249,7 @@ export class ProductService {
           "Shoes": true
         },
         "currentRating": 1,
-        "date": "2018-02-21",
+        "date": "2020-02-21",
         "description": "Those are some nice shoes you'll get there....",
         "id": 816056417742,
         "imageRefs": [
@@ -273,7 +273,7 @@ export class ProductService {
           "Clothing": true
         },
         "currentRating": 3,
-        "date": "2018-02-20",
+        "date": "2020-02-20",
         "description": "No one looks good in a fedora, but who cares anyway.",
         "id": 830862339928,
         "imageRefs": [

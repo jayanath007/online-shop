@@ -1,7 +1,6 @@
 <div class="product-card " >
 
-  <div *ngIf="product.reduction" class="product-badge text-danger">{{ product.reduction }}% Off</div>
-
+  <div class="product-badge text-danger" timeago [date]="product.date"></div>
   <div class="product-rating">
     <app-rating-stars [rating]="product.currentRating"></app-rating-stars>
   </div>
