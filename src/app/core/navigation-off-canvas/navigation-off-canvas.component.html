@@ -12,6 +12,13 @@
   </a>
   <nav class="offcanvas-menu">
     <ul class="menu">
+      <li routerLinkActive="active">
+        <span>
+          <a routerLink="/home" (click)="onNavigationClick()">
+            <span>Home</span>
+          </a>
+        </span>
+      </li>
       <li  routerLinkActive="active">
         <span>
           <a routerLink="/register-login" (click)="onNavigationClick()">
@@ -29,34 +36,33 @@
       <li routerLinkActive="active">
         <span>
           <a routerLink="/account/orders" (click)="onNavigationClick()">
-            <span>My Orders</span>
+            <span>Become a FirstClass Member</span>
           </a>
         </span>
       </li>
-      <li routerLinkActive="active">
-        <span>
-          <a routerLink="/home" (click)="onNavigationClick()">
-            <span>Home</span>
-          </a>
-        </span>
-      </li>
+   
       <li routerLinkActive="active">
         <span>
           <a routerLink="/products" (click)="onNavigationClick()">
-            <span>Products</span>
+            <span>How it Works</span>
           </a>
         </span>
       </li>
       <li routerLinkActive="active">
         <span>
           <a routerLink="/cart" (click)="onNavigationClick()">
-            <span>Cart</span>
+            <span>New</span>
           </a>
         </span>
       </li>
       <li routerLinkActive="active">
         <a routerLink="/admin/add" (click)="onNavigationClick()">
-          <span>Add Product</span>
+          <span>Best Sellers</span>
+        </a>
+      </li>
+      <li>
+        <a href="" (click)="onLogout($event)">
+          <span>Contact Us</span>
         </a>
       </li>
       <li>
