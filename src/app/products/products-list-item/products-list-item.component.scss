@@ -16,6 +16,7 @@
   display: block;
   position: relative;
   width: 100%;
+
   padding: 18px;
   border: 1px solid $border-color;
   border-radius: $border-radius-lg;
@@ -39,6 +40,7 @@
     > img {
       display: block;
       width: 100%;
+    
     }
 
     &.loading {
@@ -104,11 +106,13 @@
       }
     }
   }
-
-  &.product-list {
-    margin-bottom: 30px;
+  @media (min-width: $screen-md) {
+    .product-thumb {
+      > img {
+         height:225px;
+      }
+    }
   }
-
   @media (min-width: $screen-sm) {
 
     &.product-list {
@@ -126,6 +130,11 @@
         width: 270px;
         padding: 20px 18px;
         border-right: 1px solid $border-color;
+        > img {
+          display: block;
+          width: 100%;
+          height:auto;
+        }
       }
 
       .product-info {
