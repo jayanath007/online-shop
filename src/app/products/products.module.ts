@@ -1,4 +1,4 @@
-// import { AgmCoreModule } from '@agm/core';
+ import { AgmCoreModule } from '@agm/core';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -18,10 +18,10 @@ import { BannerComponent } from './banner/banner.component';
 @NgModule({
   imports: [
     CommonModule,
-    // AgmCoreModule.forRoot({
-    //   apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
-    //   libraries: ['places']
-    // }),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAz5DChTHUHSGcHR3BOLvjDFfLTfZQ1E8I',
+      libraries: ['places']
+    }),
     BrowserAnimationsModule,
     NgbModule,
     TimeagoModule.forRoot(),
