@@ -13,6 +13,7 @@ import { PriceComponent } from './price/price.component';
 import { PagerService } from './pager.service';
 import { TimeagoModule } from 'ngx-timeago';
 import { ProductService } from './product.service';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { ProductService } from './product.service';
     SearchComponent,
     RatingStarsComponent,
     MapComponent,
+    BannerComponent,
     PriceComponent],
   exports: [
     ProductsListComponent,
@@ -39,7 +41,6 @@ import { ProductService } from './product.service';
     ProductsHomeComponent,
     MapComponent,
     SearchComponent,
-
   ]
   ,
   providers: [

@@ -15,7 +15,7 @@ import { NavigationOffCanvasComponent } from './navigation-off-canvas/navigation
         FooterComponent,
         HeaderComponent,
         NavigationMainComponent,
-        NavigationOffCanvasComponent
+        NavigationOffCanvasComponent,
     ],
     exports: [
         CommonModule,

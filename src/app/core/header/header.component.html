@@ -1,6 +1,4 @@
 
-
-
 <header class="navbar navbar-sticky">
   <div class="site-branding">
     <div class="inner">
@@ -12,15 +10,19 @@
   <div class="toolbar">
     <div class="inner">
       <div class="tools">
-    
+
+        <div class="search">
+          <i  class="pe-7s-cart"></i>
+        </div>
         <div class="account">
           <a routerLink="/register-login"></a>
 
           <ng-template #whenLoggedIn>
             <a routerLink="/account/profile"></a>
           </ng-template>
-
           <i class="icon-head"></i>
+
+         
           <ul class="toolbar-dropdown">
             <li class="sub-menu-user">
               <div class="user-info">
