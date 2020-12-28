@@ -20,7 +20,7 @@ export class RegisterLoginComponent implements OnInit {
   public registerErrors: string = "";
 
   constructor(
-    private authenticationService: AuthService,
+    public authenticationService: AuthService,
     private router: Router,
     private messageService: MessageService
   ) {}
