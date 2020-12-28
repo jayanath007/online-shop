@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "online-shop-299505": {
+      "hosting": {
+        "online-shop": [
+          "online-shop-299505"
+        ]
+      }
+    }
+  }
+}
