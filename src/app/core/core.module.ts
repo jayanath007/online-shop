@@ -1,3 +1,4 @@
+import { MessageService } from './../messages/message.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContentComponent } from './content/content.component';
@@ -8,6 +9,9 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationMainComponent } from './navigation-main/navigation-main.component';
 import { NavigationOffCanvasComponent } from './navigation-off-canvas/navigation-off-canvas.component';
+import { AuthService } from '../account/shared/auth.service';
+import { OrderService } from '../account/orders/shared/order.service';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
     declarations: [
@@ -28,9 +32,13 @@ import { NavigationOffCanvasComponent } from './navigation-off-canvas/navigation
         CommonModule,
         AppRoutingModule,
         BrowserAnimationsModule,
-        NgxNavbarModule
+        NgxNavbarModule,
+        ToastrModule.forRoot(),
     ],
     providers: [
+        MessageService,
+        OrderService,
+        AuthService,
     ]
 })
 export class CoreModule {

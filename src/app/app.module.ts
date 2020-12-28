@@ -9,6 +9,11 @@ import { ProductsModule } from './products/products.module';
 import { OffcanvasService } from './core/offcanvas.service';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AccountModule } from './account/account.module';
+import { AuthService } from './account/shared/auth.service';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { MessageService } from './messages/message.service';
+
 
 
 @NgModule({
@@ -23,8 +28,10 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     AngularFireStorageModule,
+    AngularFireDatabaseModule,
+    AccountModule,
   ],
-  providers: [OffcanvasService],
+  providers: [OffcanvasService, ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
